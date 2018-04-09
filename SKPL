@@ -25,15 +25,15 @@ kebutuhan perangkat lunak dapat dispesifikasikan dengan kebutuhan pengguna dalam
 menunggu angkot.
 
 Tujuan
-perangkat lunak ini membantu pengguna untuk memilih angkot dan meminimalkan waktu menggu angkot
+perangkat lunak ini membantu pengguna untuk memilih angkot dan meminimalkan waktu menunggu angkot sehingga mempermudah dalam melakukan perjalanan.
 
 Ruang Lingkup Perangkat Lunak
-angkot merupakan sistem informasi yang bertujuan untuk untuk memilih angkot dan meminimalkan waktu menunggu angkot. dimana pada aplikasi
-tersebut terdapat waktu, jenis angkot, dan jalur. sehingga pengguna dapat melihat jalur angkot yang akan melewati jalur tersebut dan dapat
-mengetahui waktu angkot tersebut sampai pada tujuan pengguna. untuk aplikasi ini 
+angkot malang merupakan sistem informasi yang bertujuan untuk untuk memilih angkot dan meminimalkan waktu menunggu angkot. dimana pada aplikasi
+tersebut terdapat estimasi waktu angkot datang, estimasi waktu menunggu, jarak angkot ke pengguna, jarak angkot ke titik pemberangkan, jarak angkot ke tujuan, jenis angkot, tarif, jumlah penumpang dan rute yang dilalui angkot.
+sehingga pengguna dapat melihat rute yang dilewati angkot tersebut dan dapat mengetahui waktu angkot tersebut sampai pada tujuan pengguna.
 
 Target Audience 
-untuk memahami aplikasi tersebut pengguna harus dapat mengerti dalam mengoperasikan aplikasi angkot tersebut dan pengembang harus dapat
+untuk memahami aplikasi tersebut pengguna harus dapat mengerti dalam mengoperasikan aplikasi angkot malang tersebut dan pengembang harus dapat
 memahami aplikasi yang akan dikemnbangan sesuai dengan kebutuhan pengguna.
 
 Definisi, Istilah dan Singkatan

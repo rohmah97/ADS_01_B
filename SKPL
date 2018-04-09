@@ -12,10 +12,36 @@ Pemerintah Kota Malang
 Dipersiapkan oleh:
 Grup 01
 Abid
-Meike
+150535600921 / Meike Dwiyanti Nova Gradiska
 150535602460 / Ni'matu Rohmah
 
 
 Program Studi S1 Teknik Informatika
 Fakultas Teknik - Universitas Negeri Malang
 Jl. Semarang
+
+1. PENDAHULUAN 
+kebutuhan perangkat lunak dapat dispesifikasikan dengan kebutuhan pengguna dalam menentukan angkot yang sesuai dan meminimalkan waktu dalam
+menunggu angkot.
+
+Tujuan
+perangkat lunak ini membantu pengguna untuk memilih angkot dan meminimalkan waktu menggu angkot
+
+Ruang Lingkup Perangkat Lunak
+angkot merupakan sistem informasi yang bertujuan untuk untuk memilih angkot dan meminimalkan waktu menunggu angkot. dimana pada aplikasi
+tersebut terdapat waktu, jenis angkot, dan jalur. sehingga pengguna dapat melihat jalur angkot yang akan melewati jalur tersebut dan dapat
+mengetahui waktu angkot tersebut sampai pada tujuan pengguna. untuk aplikasi ini 
+
+Target Audience 
+untuk memahami aplikasi tersebut pengguna harus dapat mengerti dalam mengoperasikan aplikasi angkot tersebut dan pengembang harus dapat
+memahami aplikasi yang akan dikemnbangan sesuai dengan kebutuhan pengguna.
+
+Definisi, Istilah dan Singkatan
+IEEE	  :	Institute of Electrical and Electronics Engineers
+          Adalah standart internasional untuk pengembang perangkat lunak
+SKPL	  :	Spesifikasi Kebutuhan Perangkat Lunak atau
+SRS	    :	Software Requirement Specification atau
+          Adalah dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+DFD     : Data Flow Diagram
+          adalah suatu diagram yang menggunakan notasi untuk menggambar arus data sistem
+UseCase : merupakan sebuah interaksi antara satu atau lebih aktor dengan sistem yang akan dibuat

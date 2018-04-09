@@ -1,0 +1,20 @@
+Analisis dan Desain Sistem
+Teknik Informatika 2015
+
+TUGAS KELOMPOK 1:
+1.	Abid
+2.	Meike D.N.G
+3.	Ni’matu R. 
+
+	Tugas 1 (system request)
+-	Nama Project	:	System informasi jadwal angkot di kota malang 
+-	Project Sponsor	:	Pemerintah kota malang
+-	Business Needs	:	a.	Mengoptimalkan waktu menunggu angkot
+b.	Mengurangi kebingungan dalam menentukan angkot yang akan ditumpangi dengan tujuan yang sesuai dengan user.
+-	Business Requirements	:	a.	Terdapat informasi estimasi waktu 
+b.	Memberikan informasi keberadaan angkot yang ada disekitar user
+c.	System mencari lokasi user.
+-	Business Value	:	a.	 Memberikan solusi bagi user dalam memilih angkot untuk tujuan yang diinginkan
+b.	Dapat mengoptimalkan waktu menunggu dengan kedatangan angkot.
+c.	Memberikan informasi tentang angkot yang akan ditumpangi
+-	Special issues	:	a.	 System dapat dijalankan pada sistem operasi android

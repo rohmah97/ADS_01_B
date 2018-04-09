@@ -1,6 +1,7 @@
 SKPL-01
 SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 Sistem Informasi Angkutan Kota Malang
+"Naik Angkot Yuk!"
 
 
 
@@ -20,6 +21,15 @@ Program Studi S1 Teknik Informatika
 Fakultas Teknik - Universitas Negeri Malang
 Jl. Semarang
 
+Abstrak:
+Dalam penerapan kehidupan sehari-hari, angkutan kota sangat menurun kepopulerannya akibat tergeser oleh teknologi baru seperti ojek online dan taksi online.
+sehingga penghasilan supir angkot menurun drastis. hal ini diakibatkan oleh adanya kenyamanan pengguna yang rendah oleh angkutan kota.
+untuk itu, dibuatklah sebuah sistem informasi angkutan kota "Naik Angkot Yuk!" untuk membantu pengguna dalam menemukan angkot di kota Malang.
+Sistem Informasi ini memiliki fitur diantaranya estimasi waktu angkot datang, jarak angkot ke titik pemberangkan, estimasi waktu menunggu, jarak angkot ke pengguna, jarak angkot ke tujuan,
+jenis angkot, tarif, jumlah penumpang dan rute yang dilalui angkot. Sehingga sistem informasi ini sangat efektif untuk digunakan dan dapat membantu meminimalisir estimasi menunggu pengguna ketika ingin naik angkot.
+
+keywords: angkutan kota, estimasi waktu, sistem informasi
+
 1. PENDAHULUAN 
 kebutuhan perangkat lunak dapat dispesifikasikan dengan kebutuhan pengguna dalam menentukan angkot yang sesuai dan meminimalkan waktu dalam
 menunggu angkot.
@@ -28,15 +38,18 @@ Tujuan
 perangkat lunak ini membantu pengguna untuk memilih angkot dan meminimalkan waktu menunggu angkot sehingga mempermudah dalam melakukan perjalanan.
 
 Ruang Lingkup Perangkat Lunak
-angkot malang merupakan sistem informasi yang bertujuan untuk untuk memilih angkot dan meminimalkan waktu menunggu angkot. dimana pada aplikasi
-tersebut terdapat estimasi waktu angkot datang, estimasi waktu menunggu, jarak angkot ke pengguna, jarak angkot ke titik pemberangkan, jarak angkot ke tujuan, jenis angkot, tarif, jumlah penumpang dan rute yang dilalui angkot.
+Naik Angkot Yuk! merupakan sistem informasi yang bertujuan untuk untuk memilih angkot dan meminimalkan waktu menunggu angkot. dimana pada aplikasi
+tersebut terdapat estimasi waktu angkot datang, estimasi waktu menunggu, jarak angkot ke pengguna, jarak angkot ke titik pemberangkan,
+jarak angkot ke tujuan, jenis angkot, tarif, jumlah penumpang dan rute yang dilalui angkot.
 sehingga pengguna dapat melihat rute yang dilewati angkot tersebut dan dapat mengetahui waktu angkot tersebut sampai pada tujuan pengguna.
 
 Target Audience 
-untuk memahami aplikasi tersebut pengguna harus dapat mengerti dalam mengoperasikan aplikasi angkot malang tersebut dan pengembang harus dapat
-memahami aplikasi yang akan dikemnbangan sesuai dengan kebutuhan pengguna.
+Sistem Informasi ini ditujuakan untuk pengguna angkutan kota malang segala usia, baik pengguna baru dan pengguna lama.
+Seluruh pengguna harus memahami cara menggunakan sistem informasi ini. Pengguna lama (bukan pendatang) dapat mencermati estimasi waktu menunggu ketika naik angkot dan jumlah penumpang,
+Untuk pengguna baru (pendatang) dapat mencermati jalur angkutan kota malang, tujuan yang akan ditempuh, tarif, jumpah penumpang dan angkot jenis apa yang dapat digunakan.
 
 Definisi, Istilah dan Singkatan
+Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
 IEEE	  :	Institute of Electrical and Electronics Engineers
           Adalah standart internasional untuk pengembang perangkat lunak
 SKPL	  :	Spesifikasi Kebutuhan Perangkat Lunak atau
@@ -45,3 +58,46 @@ SRS	    :	Software Requirement Specification atau
 DFD     : Data Flow Diagram
           adalah suatu diagram yang menggunakan notasi untuk menggambar arus data sistem
 UseCase : merupakan sebuah interaksi antara satu atau lebih aktor dengan sistem yang akan dibuat
+
+Sistem Penomoran
+Ada beberapa hal dalam dokumen ini yang perlu diberi nomor. Tujuannya untuk mempermudah audience dalam pengidentifikasian.
+Untuk daftar penamaan Sistem Informasi Perangkat lunak dijelaskan pada tabel dibawah ini :
+
+Referensi
+Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai berikut:
+ IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE
+
+Ikhtisar Dokumen
+Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar yaitu pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari aplikasi yang akan dibuat,
+definisi, istilah dan singkatan yang digunakan dalam dokumen, aturan penomoran yang digunakan dalam dokumen, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen.
+Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem informasi yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam sistem informasi, dan
+lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak,
+keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional.
+Kebutuhan antarmuka eksternal meliputi antarmuka pemakai, antarmuka perangkat keras, antarmuak perangkat lunak, dan antarmuka komunikasi.
+Kebutuhan fungsional dan kebutuhan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak yang dibuat disertakan dalam dokumen ini.
+Kebutuhan fungsional perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD), di mana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2.
+
+2. Dekripsi Umum Sistem Informasi
+Dekripsi Umum Sistem
+Naik Angkot Yuk! merupakan sebuah sistem informasi yang berfungsi membantu pengguna dalam menamukan angkot di kota malang, serta meminimalisis waktu menunggu angkot datang.
+sistem informasi ini menjawab keresahan pengguna ketika ingin menggunakan angkutan kota namun terkendala waktu yang perlu digunakan untuk menunggu dipinggir jalan. serta untuk pendatang di kota malang terjadi kebingungan memilih angkot ketika bepergian dan,
+meminimalisir supir angkot nakal yang memberikan tarif tidak sesuai pada pendatang. Naik Angkot Yuk! membrikan solusi dalam mewujudkan  penggunaan ankutan umum agar kota malang terhindar dari kemacetan.
+selain itu, dalam sistem informasi ini juga memiliki informasi jumlah penumpang yang ada dalam angkot sehingga pengguna dapat dengan mudah memilih angkot yang ingin ditumpangi dengann emnyediakan barcode pada setiap angkot.
+sistem informasi ini dapat melakukan update setiap saat, dan dapat digunakan oleh siapapun tanpa melakukan login dan ketentuan lainnya sehingga mudah dalam penggunaannya.
+
+Fungsi Perangkat Lunak
+fungsi utama dari sistem informasi Naik Angkot Yuk! diantaranya yaitu mencari keberadaan angkot sesuai rute ujuan pengguna, menampilkan informasi keselurhan dangkot, dan estimasi waktu.
+
+Karakteristik Pengguna
+hal yang dapat dilakukan oleh pengguna diantaranya adalah:
+- mencari angkot disekitar lokasi pengguna
+- melihat informasi angkot meliputi jarak, waktu tempuh ke tujuan, tarif, jumlah penumpang, dan sebagainya.
+- melihat perkiraan waktu tempuh angkot datang
+- melihat perkiraan waktu tempuh pengguna dari lokasi pengguna ke titik pemberangkatan angkot.
+
+Batasan
+Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
+1. Apliksi hanya sebagai sistem informasi, tidak melayani pemesanan angkot, dan sebaginya.
+2. Pengguna tidak perlu melakukan registrasi ataupun login ketika ingin menggunakan aplikasi ini.

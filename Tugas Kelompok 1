@@ -40,3 +40,25 @@ Kebutuhan Non-Fungsional
 6.	Sistem tidak menyediakan pembuatan akun pengguna
 7.	Untuk mendeteksi posisi angkot dan user tidak membutuhkan waktu lebih dari 10 menit
 8.	System memudahkan user untuk mempersingkat waktu menuggu angkot yang akan lewat pada jalur tersebut
+
+	Tugas 3
+Use case name 	: Memilih angkot
+-	Actor	:	Pengguna angkot
+-	Description	:
+a.	Pengguna dapat melihat estimasi waktu tiba angkot pada suatu tempat yang digunakan untuk menunggu.
+b.	Pengguna dapat melihat jarak antara pengguna dan angkot
+c.	Pengguna dapat melihat berapa banyak penumpang yang berada pada angkot yang dipilih
+d.	Pengguna dapat memilih jalur angkot
+-	Trigger	:	Pengguna ingin memilih angkot yang berada pada sekitar pengguna sesuai dengan tempat yang dituju.
+-	Type	:	external
+-	Precondition	:	Pengguna berada pada menu peta dimana terdapat angkot-angkot yang ada di sekitar user.
+Pengguna dapat 
+-	Normal Course	:	Memilih angkot yang tersedia 
+-	Pengguna dapat mengklik salah satu angkot yang sesuai dengan tempat tujuan 
+-	Post Condition	:
+a.	System menampilkan ETA yang menunjukkan perkiraan waktu tiba dan jalur angkot
+b.	System menampilkan jarak antar pengguna dengan angkot
+c.	System menampilkan jumlah penumpang yang ada pada angkot tersebut
+-	Exceptions	:
+a.	System menampilkan pop up “angkot tidak tersedia dalam 2 menit terkhir.
+

@@ -110,3 +110,47 @@ Client:
 Android dengan spesifikasi:
 - ... ... ...
 - ... ... ...
+
+3. Deskripsi Kebutuhan
+Kebutuhan Antarmuka Eksternal
+Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
+1) Antarmuka pemakai
+2) Antarmuka perangkat keras
+3) Antarmuka perangkat lunak
+4) Antarmuka komunikasi
+
+Kebutuhan Fungsional
+Kebutuhan fungsional untuk aplikasi ini tersedia pada table dibawah ini:
+.. .. .. ..
+1) Diagram Konteks
+2) DFD level 1
+   2.1) DFD level 2 <.. .. ..>
+3) Spesifikasi Proses (P-SPEC)
+4) Data Store
+
+Kebutuhan Data
+1) E-R Diagram
+
+Kebutuhan Non Fungsional
+Kebutuhan fungsional dari aplikasi ini diantaranya adalah:
+.. .. ..
+
+Batasan Perancangan
+Adapun batasan dalam perancangan aplikasi ini antara lain:
+-  .. .. ..
+
+Kerunutan (traceability)
+Sebuah aplikasi yang baik mempunyai kebutuhan fungsional yang bisa dirunut model analisisnya. Dibawah ini merupakan tabel berisi traceability dari hasil analisis kebutuhan aplikasi yang dibangun.
+1) Kebutuhan fungsional vs proses
+   Mapping kebutuhan fungsional dengan DFD proses pada aplikasi ini adalah:
+   .. .. .. (table)
+2) Data store vs E-R
+   Mapping data store yang terdapat pada DFD dengan Entity Relasi untuk pengembangan aplikasi ini adalah:
+   .. .. .. (table)
+
+Ringkasan Kebutuhan
+Sistem aplikasi yang dibuat ini memiliki dua jenis kebutuhan, kebutuhan fungsional dan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, yang nantinya akan dijadikan arahan untuk proses testing. Kebutuhan-kebutuhan tersebut disajikan pada table di bawah ini
+1) Kebutuhan Fungsional
+   ... ... (table)
+2) Kebutuhan Non Fungsional
+   ... ... (table)

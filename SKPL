@@ -12,7 +12,7 @@ Pemerintah Kota Malang
 
 Dipersiapkan oleh:
 Grup 01
-Abid
+150535600908 / Abid Falih Zuhdi
 150535600921 / Meike Dwiyanti Nova Gradiska
 150535602460 / Ni'matu Rohmah
 
@@ -116,7 +116,12 @@ Kebutuhan Antarmuka Eksternal
 Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
 1) Antarmuka pemakai
    User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
- - Tampi
+  - Tampilan awal beserta pilihan fitur (cari tujuan, daftar angkot, QRCode)
+  - Tampilan scan QRCode
+  - Tampilan berupa informasi angkot
+  - Tampilan hasil pencarian angkot
+   Adapun alat-alat yang digunakan untuk mendukung antarmuka pemakai adalah:
+  - Ponsel pintar dengan fitur touchscreen dan kamera
 2) Antarmuka perangkat keras
 3) Antarmuka perangkat lunak
 4) Antarmuka komunikasi

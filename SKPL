@@ -115,6 +115,8 @@ Android dengan spesifikasi:
 Kebutuhan Antarmuka Eksternal
 Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
 1) Antarmuka pemakai
+   User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
+ - Tampi
 2) Antarmuka perangkat keras
 3) Antarmuka perangkat lunak
 4) Antarmuka komunikasi

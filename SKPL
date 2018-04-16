@@ -101,3 +101,12 @@ Batasan
 Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
 1. Apliksi hanya sebagai sistem informasi, tidak melayani pemesanan angkot, dan sebaginya.
 2. Pengguna tidak perlu melakukan registrasi ataupun login ketika ingin menggunakan aplikasi ini.
+
+Lingkungan Operasi
+Aplikasi ini akan berjalan pada spesifikasi:
+Server:
+- ... ... ...
+Client:
+Android dengan spesifikasi:
+- ... ... ...
+- ... ... ...

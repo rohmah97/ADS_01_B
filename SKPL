@@ -128,7 +128,15 @@ Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
 
 Kebutuhan Fungsional
 Kebutuhan fungsional untuk aplikasi ini tersedia pada table dibawah ini:
-.. .. .. ..
+1.	Sistem dapat melakukan pendeteksian lokasi angkot yang terdekat dengan lokasi pengguna
+2.	Sistem dapat melakukan pendeteksian jumlah penumpang angkot
+3.	Sistem dapat menghitung jarak angkot dari tempat pengguna ataupun dari lokasi yang ditentukan
+4.	Sistem dapat memprediksi alokasi waktu tempuh angkot sampai dengan titik yang ditentukan pengguna (baik lokasi berangkat maupun lokasi tujuan)
+5.	Sistem dapat menampilkan tarif angkot
+6.	Sistem dapat mendeteksi jalur yang dilewati angkot
+7.	Sistem dapat mendeteksi nama angkot
+8.	Sistemd dapat mendeteksi angkot yang dipilih pengguna
+
 1) Diagram Konteks
 2) DFD level 1
    2.1) DFD level 2 <.. .. ..>
@@ -140,7 +148,15 @@ Kebutuhan Data
 
 Kebutuhan Non Fungsional
 Kebutuhan fungsional dari aplikasi ini diantaranya adalah:
-.. .. ..
+1.	Sistem dapat dijalankan di platform android
+2.	Sistem memiliki antarmuka yang mudah dipahami
+3.	Kebutuhan RAM minimal 1 GB
+4.	Kebutuhan Harddisk minimal 35 MB
+5.	Dilengkap dengan barcode yang digunakan untuk mendeteksi angkot
+6.	Sistem tidak menyediakan pembuatan akun pengguna
+7.	Untuk mendeteksi posisi angkot dan user tidak membutuhkan waktu lebih dari 10 menit
+8.	System memudahkan user untuk mempersingkat waktu menuggu angkot yang akan lewat pada jalur tersebut
+
 
 Batasan Perancangan
 Adapun batasan dalam perancangan aplikasi ini antara lain:

@@ -108,8 +108,8 @@ Server:
 - ... ... ...
 Client:
 Android dengan spesifikasi:
-- ... ... ...
-- ... ... ...
+- RAM minimal 1 GB
+- Harddisk minimal 35 MB
 
 3. Deskripsi Kebutuhan
 Kebutuhan Antarmuka Eksternal
@@ -160,7 +160,8 @@ Kebutuhan fungsional dari aplikasi ini diantaranya adalah:
 
 Batasan Perancangan
 Adapun batasan dalam perancangan aplikasi ini antara lain:
--  .. .. ..
+- Apliksi hanya sebagai sistem informasi, tidak melayani pemesanan angkot, dan sebagainya.
+- Tidak ada halaman login pada aplikasi ini.
 
 Kerunutan (traceability)
 Sebuah aplikasi yang baik mempunyai kebutuhan fungsional yang bisa dirunut model analisisnya. Dibawah ini merupakan tabel berisi traceability dari hasil analisis kebutuhan aplikasi yang dibangun.
@@ -174,6 +175,22 @@ Sebuah aplikasi yang baik mempunyai kebutuhan fungsional yang bisa dirunut model
 Ringkasan Kebutuhan
 Sistem aplikasi yang dibuat ini memiliki dua jenis kebutuhan, kebutuhan fungsional dan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, yang nantinya akan dijadikan arahan untuk proses testing. Kebutuhan-kebutuhan tersebut disajikan pada table di bawah ini
 1) Kebutuhan Fungsional
-   ... ... (table)
+   - Sistem dapat melakukan pendeteksian lokasi angkot yang terdekat dengan lokasi pengguna
+   - Sistem dapat melakukan pendeteksian jumlah penumpang angkot
+   - Sistem dapat menghitung jarak angkot dari tempat pengguna ataupun dari lokasi yang ditentukan
+   - Sistem dapat memprediksi alokasi waktu tempuh angkot sampai dengan titik yang ditentukan pengguna (baik lokasi berangkat maupun lokasi tujuan
+   - Sistem dapat menampilkan tarif angkot
+   - Sistem dapat mendeteksi jalur yang dilewati angkot
+   - Sistem dapat mendeteksi nama angkot
+   - Sistemd dapat mendeteksi angkot yang dipilih pengguna
+
 2) Kebutuhan Non Fungsional
-   ... ... (table)
+- Sistem dapat dijalankan di platform android
+- Sistem memiliki antarmuka yang mudah dipahami
+- Kebutuhan RAM minimal 1 GB
+- Kebutuhan Harddisk minimal 35 MB
+- Dilengkap dengan barcode yang digunakan untuk mendeteksi angkot
+- Sistem tidak menyediakan pembuatan akun pengguna
+- Untuk mendeteksi posisi angkot dan user tidak membutuhkan waktu lebih dari 10 menit
+- System memudahkan user untuk mempersingkat waktu menuggu angkot yang akan lewat pada jalur tersebut
+

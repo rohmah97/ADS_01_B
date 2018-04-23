@@ -138,6 +138,10 @@ Kebutuhan fungsional untuk aplikasi ini tersedia pada table dibawah ini:
 8.	Sistemd dapat mendeteksi angkot yang dipilih pengguna
 
 1) Diagram Konteks
+   ＿ ＿ ＿ ＿                                          ＿ ＿ ＿ ＿ ＿ ＿ ＿ 
+   |pengguna|------ (Proses pendeteksi angkot) ------ |Angkot terdeteksi|
+    ￣￣￣￣￣                                          ￣￣￣￣￣￣￣￣￣￣￣
+   
 2) DFD level 1
    2.1) DFD level 2 <.. .. ..>
 3) Spesifikasi Proses (P-SPEC)

@@ -138,9 +138,12 @@ Kebutuhan fungsional untuk aplikasi ini tersedia pada table dibawah ini:
 8.	Sistemd dapat mendeteksi angkot yang dipilih pengguna
 
 1) Diagram Konteks
-   ＿ ＿ ＿ ＿                                          ＿ ＿ ＿ ＿ ＿ ＿ ＿ 
-   |pengguna|------ (Proses pendeteksi angkot) ------ |Angkot terdeteksi|
-    ￣￣￣￣￣                                          ￣￣￣￣￣￣￣￣￣￣￣
+   ＿ ＿ ＿ ＿ lokasi user                              menekan tombol online/offline  ＿ ＿ ＿ ＿ ＿ ＿ ＿ 
+   |  user  |-------------> (Proses pendeteksi angkot) <---------------------------- |   Supir Angkot  |
+   |        | <------------ (                        ) ----------------------------> |                 |
+    ￣￣￣￣￣ lokasi angkot&jalur&info lainnya      posisi angkot terlihat/tdk pd map ￣￣￣￣￣￣￣￣￣￣￣
+    
+    Diagram konteks (dgn tampilan lbh jelas) untuk aplikasi ini ada pada link berikut https://drive.google.com/file/d/1zs-rXps6Y7PTxDVPmwqjEM0Q0wbQCIhx/view?usp=drivesdk
    
 2) DFD level 1
    2.1) DFD level 2 <.. .. ..>

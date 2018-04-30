@@ -123,6 +123,12 @@ Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
    Adapun alat-alat yang digunakan untuk mendukung antarmuka pemakai adalah:
   - Ponsel pintar dengan fitur touchscreen dan kamera
 2) Antarmuka perangkat keras
+   Antarmuka perangkat keras yang digunakan adalah sebagai berikut:
+   - OSnya adalah android
+   - RAM minimal 1 G
+   - Memori Internal (harddisk) minimal tersedia 35 MB
+   - Memiliki kamera untuk scan barcode
+   - Memiliki fitur GPS
 3) Antarmuka perangkat lunak
 4) Antarmuka komunikasi
 

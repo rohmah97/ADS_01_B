@@ -105,7 +105,9 @@ Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasa
 Lingkungan Operasi
 Aplikasi ini akan berjalan pada spesifikasi:
 Server:
-- ... ... ...
+- RAM minimal 2 GB
+- Harddisk minimal 75 GB
+
 Client:
 Android dengan spesifikasi:
 - RAM minimal 1 GB

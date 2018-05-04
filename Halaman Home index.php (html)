@@ -39,9 +39,9 @@
 					<div class="navbar-collapse collapse">							
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="/ppl/mark/" class="active">Home</a></li>
+								<li role="presentation"><a href=" " class="active">Home</a></li>
 								<li role="presentation"><a href="Tujuan.html">Cari Tujuan</a></li>								
-								<li role="presentation"><a href="Angkot.html">Cari Angkot</a></li>
+								<li role="presentation"><a href="/ppl/mark/">Cari Angkot</a></li>
 								<li role="presentation"><a href="QRCODE.html">QRCODE</a></li>				
 							</ul>
 						</div>
@@ -50,7 +50,28 @@
 			</div>	
 		</nav>		
 	</header>
-
+<section id="main-slider" class="no-margin">
+        <div class="carousel slide">      
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(images/Angkot/peta.PNG)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2 class="animation animated-item-1">Naik ANgkot Yuk!</h2><br>
+									<div class="col-sm-6 hidden-xs animation animated-item-4">
+										<div class="slider-img">
+											<img src="images/Angkot/logo.png" class="img-responsive">
+										</div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->             
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
 	<footer>
 		<div class="footer">
 			<div class="container">

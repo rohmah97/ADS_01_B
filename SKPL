@@ -116,6 +116,10 @@ Android dengan spesifikasi:
 - RAM minimal 1 GB
 - Harddisk minimal 35 MB
 
+Dokumentasi bagi pengguna
+1. adanya bantuan on-line untuk pengguna dalam menggunakan aplikasi naik angkut yuk
+2. aplikasi ini juga terdapat tutorials yang akan membantu pengguna dalam mengakses posisi pengguna sekarang
+
 3. Deskripsi Kebutuhan
 Kebutuhan Antarmuka Eksternal
 Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
@@ -135,6 +139,10 @@ Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
    - Memiliki kamera untuk scan barcode
    - Memiliki fitur GPS
 3) Antarmuka perangkat lunak
+   antarmuka perangkat lunak yang digunakan adalah sebagai berikut
+   - mysql yang digunakan untuk membuat database yang berfungsi untuk menginputkan latitude dan longtitude angkot
+   - template web yang digunakan untuk tampilan aplikasi yang dibuat
+   - android apk untuk mngconvert aplikasi berbasis web ke android.
 4) Antarmuka komunikasi
 
 Kebutuhan Fungsional

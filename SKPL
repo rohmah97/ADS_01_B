@@ -144,6 +144,8 @@ Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
    - template web yang digunakan untuk tampilan aplikasi yang dibuat
    - android apk untuk mngconvert aplikasi berbasis web ke android.
 4) Antarmuka komunikasi
+   antarmuka komunikasi yang digunakan adalah sebagai berikut
+   - menggunakan 
 
 Kebutuhan Fungsional
 Kebutuhan fungsional untuk aplikasi ini tersedia pada table dibawah ini:
@@ -174,7 +176,9 @@ Kebutuhan Data
    Untuk ERD pasa sistem/aplikasi ini tersedia pada https://drive.google.com/file/d/1gliAD8WhA4alfUXrM2REKDaORtIjTgay/view?usp=drivesdk
 
 Kebutuhan Non Fungsional
-Kebutuhan fungsional dari aplikasi ini diantaranya adalah:
+
+Kebutuhan Kinerja
+Kebutuhan Kinerja dari aplikasi ini diantaranya adalah:
 1.	Sistem dapat dijalankan di platform android
 2.	Sistem memiliki antarmuka yang mudah dipahami
 3.	Kebutuhan RAM minimal 1 GB
@@ -184,6 +188,15 @@ Kebutuhan fungsional dari aplikasi ini diantaranya adalah:
 7.	Untuk mendeteksi posisi angkot dan user tidak membutuhkan waktu lebih dari 10 menit
 8.	System memudahkan user untuk mempersingkat waktu menuggu angkot yang akan lewat pada jalur tersebut
 
+Kebutuhan Keamanan
+kebutuhan keamanan dari aplikasi ini diantaranya adalah:
+1. sistem yang ada diangkutan tidak dapat mendeteksi pengguna
+2. yang mengetahui posisi pengguna hanya pemilik smartphone tersebut.
+
+Aturan Pengguna
+aturan pengguna dalam aplikasi ini adalah
+1. pengguna harus menginputkan lokasi tujuan dan posisi sekarang untuk menampilkan estimasi waktu pada aplikasi
+2. untuk mengetahui informasi tentang angkutan maka pengguna harus klik pada bagian angkut.
 
 Batasan Perancangan
 Adapun batasan dalam perancangan aplikasi ini antara lain:

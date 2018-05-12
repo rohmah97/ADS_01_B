@@ -145,7 +145,7 @@ Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
    - android apk untuk mngconvert aplikasi berbasis web ke android.
 4) Antarmuka komunikasi
    antarmuka komunikasi yang digunakan adalah sebagai berikut
-   - menggunakan 
+   - menggunakan standart komunikasi berupa SSH FTP yang bertujuan untuk mentranfer data dari client ke server yang lebih aman
 
 Kebutuhan Fungsional
 Kebutuhan fungsional untuk aplikasi ini tersedia pada table dibawah ini:

@@ -101,6 +101,9 @@ Batasan
 Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
 1. Apliksi hanya sebagai sistem informasi, tidak melayani pemesanan angkot, dan sebaginya.
 2. Pengguna tidak perlu melakukan registrasi ataupun login ketika ingin menggunakan aplikasi ini.
+3. Aplikasi ini hanya dipakai didaerah Malang raya.
+4. tools yang ada hanya menginputkan tujuan pengguna dan posisi pengguna sekarang, tidak dapat menginputkan posisi pengguna lain.
+5. aplikasi hanya menampilkan informasi berupa estimasi waktu, jumlah penumpang dan alur yang akan dilewati. tidak menampilkan informasi mengenai supir angkot.
 
 Lingkungan Operasi
 Aplikasi ini akan berjalan pada spesifikasi:

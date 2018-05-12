@@ -19,7 +19,7 @@ Grup 01
 
 Program Studi S1 Teknik Informatika
 Fakultas Teknik - Universitas Negeri Malang
-Jl. Semarang
+Jl. Semarang No.5, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145
 
 Abstrak:
 Dalam penerapan kehidupan sehari-hari, angkutan kota sangat menurun kepopulerannya akibat tergeser oleh teknologi baru seperti ojek online dan taksi online.
@@ -120,9 +120,9 @@ Dokumentasi bagi pengguna
 1. adanya bantuan on-line untuk pengguna dalam menggunakan aplikasi naik angkut yuk
 2. aplikasi ini juga terdapat tutorials yang akan membantu pengguna dalam mengakses posisi pengguna sekarang
 
-3. Deskripsi Kebutuhan
+Deskripsi Kebutuhan
 Kebutuhan Antarmuka Eksternal
-Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
+Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut :
 1) Antarmuka pemakai
    User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
   - Tampilan awal beserta pilihan fitur (cari tujuan, daftar angkot, QRCode)
@@ -132,19 +132,19 @@ Aplikasi "yuk naik angkot" ini membutuhkan beberapa fasilitas sebagai berikut
    Adapun alat-alat yang digunakan untuk mendukung antarmuka pemakai adalah:
   - Ponsel pintar dengan fitur touchscreen dan kamera
 2) Antarmuka perangkat keras
-   Antarmuka perangkat keras yang digunakan adalah sebagai berikut:
+   Antarmuka perangkat keras yang digunakan adalah sebagai berikut :
    - OSnya adalah android
    - RAM minimal 1 G
    - Memori Internal (harddisk) minimal tersedia 35 MB
    - Memiliki kamera untuk scan barcode
    - Memiliki fitur GPS
 3) Antarmuka perangkat lunak
-   antarmuka perangkat lunak yang digunakan adalah sebagai berikut
+   antarmuka perangkat lunak yang digunakan adalah sebagai berikut :
    - mysql yang digunakan untuk membuat database yang berfungsi untuk menginputkan latitude dan longtitude angkot
    - template web yang digunakan untuk tampilan aplikasi yang dibuat
-   - android apk untuk mngconvert aplikasi berbasis web ke android.
+   - android apk untuk mengconvert aplikasi berbasis web ke android.
 4) Antarmuka komunikasi
-   antarmuka komunikasi yang digunakan adalah sebagai berikut
+   antarmuka komunikasi yang digunakan adalah sebagai berikut :
    - menggunakan standart komunikasi berupa SSH FTP yang bertujuan untuk mentranfer data dari client ke server yang lebih aman
 
 Kebutuhan Fungsional
